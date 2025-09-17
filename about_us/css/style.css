@@ -1,0 +1,355 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+    color: rgba(255, 255, 255, 0.942);
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    
+
+}
+
+
+
+body{  
+     width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+     
+}
+.contuner{
+    width:90%;
+    height:100%; 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+     width:90%;
+    height:10%;
+    background:linear-gradient(to top,#00000000,#212121);
+    position: fixed;
+    z-index: 1;
+ }
+ 
+.str_head,.end_head{
+     
+     display: flex; 
+     text-align: center;  
+} 
+.end_head{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.end_head ul{
+    display: flex;
+    gap: 12%;
+    
+} 
+.str_head h2{
+    position: relative;
+    font-size: 33px;
+    left:-34px;
+    bottom:-23px;
+     color: rgba(231, 202, 9, 0.942);
+    
+}
+.str_head img{
+    width: 150px;
+    height:80px;
+}
+.end_head ul li{
+    list-style: none;
+}
+.end_head ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:19px;
+    transition: 0.5s;
+    
+}
+.end_head ul li a:hover{
+     color: rgba(231, 202, 9, 0.942);
+}
+
+.shop {
+     position: relative;
+     left:-34px;
+    background-color: rgba(171, 0, 0, 0.942);
+    height: 50%;
+    padding: 6px;
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+   border-radius: 5px;
+} 
+.shop:hover,main .button:hover{
+    background-color: rgba(105, 105, 105, 0.923);
+}
+                                                          /* main  text */
+.main_text{
+    text-align: center;
+    width: auto;
+    height:30%;
+    font-size: 4rem;
+    padding-top: 60px;
+}
+main{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.box{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: black
+    
+
+}
+.box .cols_left{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.box .cols_left .p_left{
+    position: relative;
+    padding-left:2rem;
+    padding-top: 2.4rem;
+    width:80% ;
+    height:auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight:bold ;
+    background-color:rgba(0, 0, 0, 0.973);
+}
+.box .cols_left .p_left::before{
+    content: "";
+    width:1rem;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    background-image:linear-gradient(to bottom,rgb(204, 41, 41), rgb(0 0 0 / 68%));
+
+}
+.box .cols_left .p_left::after{
+    content: "woodworking ";
+     display: block;
+    position: absolute;
+    left: 25px;;
+    top:-21px;
+    font-size: 12px;
+    font-weight:normal ;
+}
+.box .cols_left .p_left span{
+color:rgb(204, 41, 41) ;
+font-size:1.4 ;
+}
+.box .cols_left .img_left{
+    width: 80%;
+    height:auto ;
+    background-color: rgba(38, 15, 15, 0.678);
+    border-radius: 8px;
+}
+
+
+   .box .cols_left .img_left img{
+    max-width:100%;
+
+border-radius: 8px;
+   }                                                         /* .box .cols_right */
+.box .cols_right{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center
+}
+.box .cols_right .img_cols{
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.box .cols_right .img_cols .img1{
+    width: 40%;
+
+}
+.box .cols_right .img_cols .img1 img{
+    max-width:100%;
+border-radius: 8px;}
+    
+.box .cols_right .img_cols .img2{
+    width: 40%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.744);
+
+}
+.box .cols_right .img_cols .img2 img{
+    max-width: ; width: 100%;
+    
+border-radius: 8px;}
+
+.box .cols_right .p_right {
+    width: 83%;
+    background-color:rgba(0, 0, 0, 0.973);
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+.box .cols_right .img_cols .p_right p{
+    width: 80%;
+    h
+}
+    .box .cols_right .img_cols .p_right .R_number{
+     background-color: rgb(53, 130, 198);
+     display: flex;
+     flex-direction:column ;
+     gap: 20px;
+     gap: 1rem;
+    }
+
+
+@media (max-width:900px) {
+    
+.end_head{
+   width: 80%;
+}
+
+.end_head ul{
+    gap: 1rem; 
+} 
+
+
+.str_head h2{
+    font-size: 30px;
+    left:-50px;
+    bottom:-12px;
+}
+.str_head img{
+    width: 150px;
+    height:80px;
+}
+.end_head ul li{
+    list-style: none;
+}
+.end_head ul li a{
+    font-size:18px;
+}
+a{
+    
+    font-size:16px;}
+
+.shop {
+     left:-34px;
+    height: 20px;
+    width: 70px;
+  font-size: 14;
+    font-weight: bold;
+
+   border-radius: 5px;
+} 
+main{
+    width: 80%;
+    height: 98%;
+ 
+    font-size: 40px;
+}
+.section_main{
+    width: 90%;
+    height: 70%;   
+}
+
+
+}
+   
+ @media (min-width:200px) and (max-width:760px) {
+    header .str_head{
+        display: none;
+
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .end_head{
+     width: 90%;
+    display: flex;
+    justify-content: space-between;}
+    .shop {
+     left:0px;
+    height: 20px;
+    width: 70px;
+  font-size: 14;
+    font-weight: bold;
+
+   border-radius: 5px;
+} 
+.end_head ul li a{
+    font-size:16px; 
+}
+    .end_head ul{
+    display: flex;
+    gap: 5%;
+    
+} 
+main .button a{
+    font-size: 14px;
+}
+main .button {
+    margin-top: 32px;
+    height: 35px;
+    width: 45%;
+    background-color: rgba(231, 202, 9, 0.942);
+    
+    }
+    a{
+    
+    font-size:16px;}
+    
+.box{
+    
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.box .cols_left{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+.shop {
+   display: none;
+}
+ }
+ 

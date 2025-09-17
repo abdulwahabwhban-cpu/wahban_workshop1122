@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="str_head">
+            <img src="imges/mark1.png" alt="">
+        </div>
+         <div class="end_head">
+            <ul  class="navbar">
+              <li><a href="../home/index.html">Home</a></li>
+               <li><a href="../about_us/index.html">about us</a></li>
+               <li><a href="../prodect/index.html">Prodect</a></li>
+               <li><a href="../servises/index.html">services</a></li>
+               <li><a href="../Contect/index.html">contect</a></li>
+            </ul>   
+           
+            <div class="shop">
+            <a href="Home">Login in</a></div></div>
+
+    </header>
+
+    <div class="main_text">
+        <div class="apper mark"><img src="imges/mark1.png" alt=""></div>
+        <p>Services</p>
+     <div class="apper shop">
+            <a href="Home">Login in</a></div></div>
+    <main>
+    <div class="pictuers"> 
+         </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
